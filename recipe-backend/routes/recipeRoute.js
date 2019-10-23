@@ -13,16 +13,16 @@ PUT  /api/recipes/:id  — modifies the recipe with the provided ID
 DELETE  /api/recipes/:id  — deletes the recipe with the provided ID
 
 //USE THIS ID TO TEST THE ENDPOINTS
-    5db051b774b49809cc13d7ce
-    5db0525f74b49809cc13d7cf
+    5db05cddcc76402410ea64e7
+
 
  */
 
 
 router
-.route('/recipes',)
-.post(recipeController.createRecipe)
-router.get(recipeController.getAllRecipes)
+.route('/recipes')
+.get(recipeController.getAllRecipes)
+.post(recipeController.createRecipe);
 
 
 
